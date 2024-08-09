@@ -1,0 +1,31 @@
+# Ignore large files
+groqenv/bin/ruff
+groqenv/lib/python3.12/site-packages/numpy/.dylibs/libopenblas64_.0.dylib
+groqenv/lib/python3.12/site-packages/gradio/templates/frontend/assets/Index-gssawu_Q.js.map
+# .git/objects/pack/pack-079ef2730b91425484f26ea1d54e8ed677e981a6.pack 
+
+# Ignore virtual environments
+venv/
+env/
+groqenv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore package directories
+node_modules/
+.mypy_cache/
+.pytest_cache/
+.cache/
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
